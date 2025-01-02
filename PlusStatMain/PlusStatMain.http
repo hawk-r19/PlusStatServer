@@ -1,0 +1,6 @@
+@PlusStatMain_HostAddress = http://localhost:5208
+
+GET {{PlusStatMain_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
