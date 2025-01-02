@@ -3,7 +3,7 @@ using Microsoft.Data.SqlClient;
 
 namespace DataAccess
 {
-    public class SqlDbAccess
+    public class SqlDbAccess : I_DbAccess
     {
         private string _sqlConnectionString;
 
